@@ -8,6 +8,8 @@ A simple web app to track income and expenses using HTML, CSS, and JavaScript.
 3. Delete transactions
 4. Automatic calculation of income, expense, and balance
 5. Data saved using localStorage
+
+
 --Tech Stack--
 1. HTML
 2. CSS
