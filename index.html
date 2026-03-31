@@ -3,45 +3,35 @@
 <head>
   <title>Money Manager</title>
   <link rel="stylesheet" href="css/style.css">
-
 </head>
 <body>
-
   <h1>Money Manager App</h1>
-
   <div class="summary">
   <div class="card income">
     <h3>Income</h3>
     <p>₹<span id="income">0</span></p>
   </div>
-
   <div class="card expense">
     <h3>Expense</h3>
     <p>₹<span id="expense">0</span></p>
   </div>
-
   <div class="card balance">
     <h3>Balance</h3>
     <p>₹<span id="balance">0</span></p>
   </div>
 </div>
-
   <div class="form">
     <input type="number" id="amount" placeholder="Amount">
     <input type="date" id="date">
-
     <select id="category">
       <option value="">Select Category</option>
       <option value="Income">Income</option>
       <option value="Expense">Expense</option>
     </select>
-
     <input type="text" id="subCategory" placeholder="Sub-category">
     <input type="text" id="description" placeholder="Description">
-
     <button id="saveBtn">Add Transaction</button>
   </div>
-
   <table border="1">
     <thead>
       <tr>
@@ -55,7 +45,6 @@
     </thead>
     <tbody id="list"></tbody>
   </table>
-
   <script src="js/app.js"></script>
 </body>
 </html>
